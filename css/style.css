@@ -1,0 +1,19 @@
+.page {	
+	width: 320px;
+	margin: 0 auto;
+	background-image: url('../img/bg_main_320.jpg');
+	background-repeat: no-repeat;
+}
+
+.container {
+	height: 50px;
+}
+
+.row {
+	display: flex;
+}
+
+.promo {
+	height: 486px;
+}
+
