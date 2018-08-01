@@ -1,19 +1,118 @@
+@font-face {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/prata-v8-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Prata Regular'), local('Prata-Regular'),
+       url('../fonts/prata-v8-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/prata-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/prata-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/prata-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/prata-v8-cyrillic_latin-regular.svg#Prata') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v9-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('PT Sans'), local('PTSans-Regular'),
+       url('../fonts/pt-sans-v9-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pt-sans-v9-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pt-sans-v9-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pt-sans-v9-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pt-sans-v9-cyrillic_latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+}
+
 .page {	
+  display: flex;
+  flex-direction: column;
 	width: 320px;
 	margin: 0 auto;
 	background-image: url('../img/bg_main_320.jpg');
 	background-repeat: no-repeat;
 }
+.header {
 
-.container {
-	height: 50px;
 }
 
-.row {
-	display: flex;
+.hdr_container {
+  display: flex;
+}
+
+.hdr_row {
+
+}
+
+.hdr_logo {
+
+}
+
+.logo {
+	font-family: 'Prata', serif;
+	font-size: 30px;
+	color: #eec643;
+}
+
+.menu {
+
 }
 
 .promo {
 	height: 486px;
 }
 
+.promo_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo_box {
+  
+}
+
+.promo_info {
+
+}
+
+.promo_lesson {
+
+}
+
+.musicians_container {
+
+}
+
+.musicians_box {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.lessons {
+
+}
+
+.piano {
+  display: flex;
+}
+
+.studio {
+  display: flex;
+}
+
+.temp_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.school_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+}
